@@ -1,4 +1,4 @@
 flask==2.2.2
 numpy==1.19.5
-tenserflow==2.10.0
+tenserflow
 gunicorn==20.0.4
