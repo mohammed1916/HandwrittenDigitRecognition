@@ -1,3 +1,4 @@
+python-3.8.0
 flask==2.2.2
 numpy==1.19.5
 tenserflow==2.2.0rc4
