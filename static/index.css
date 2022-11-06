@@ -1,0 +1,32 @@
+html {
+    background-color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    padding: 1rem;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box p {
+    margin-top: 1rem;
+}
+
+.title {
+    padding: 3rem 0 2rem 0;
+}
+
+#canvas {
+    background-color: white;
+    border: 1px solid gray;
+}

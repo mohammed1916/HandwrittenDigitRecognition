@@ -1,0 +1,5 @@
+flask==2.2.2
+numpy==1.19.5
+uvicorn==0.15.0
+tenserflow==2.0.0
+tensorflow-cpu==2.7.0

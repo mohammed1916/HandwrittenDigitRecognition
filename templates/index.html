@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="main-container">
+  <h1 class="title">Handwritten digit Recognition</h1>
+  <div>
+    <div class="box">
+      <form class="p-3 text-center" action="/" method="POST" enctype="multipart/form-data">
+        <b>
+          <input class="form-control" type="file" name="imagefile"> <br><br>
+          <input class="btn btn-primary mt-3" type="submit" value="Predict Image">
+      </form>
+      <p>Upload the Image to get digital output</p>
+    </div>
+    <div class="box">
+      <h4>The results will be shown here</h4>
+      <p>{{pred}}</p>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
