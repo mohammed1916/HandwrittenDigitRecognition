@@ -5,9 +5,8 @@ import make_prediction
 app = Flask(__name__)
 
 
-
-@app.route('/',methods=['GET'])
-def app():
+@app.route('/', methods=['GET'])
+def main():
     return render_template('index.html')
 
 
@@ -18,24 +17,9 @@ def predict():
     imageFile.save(imgPath)
     # arr = np.array([[data1, data2, data3, data4]])
     pred = make_prediction.predict()
-    pred= "The digitalised output is"+pred
-    return render_template('index.html', prediction= pred)
+    pred = "The digitalised output is"+pred
+    return render_template('index.html', prediction=pred)
 
 
 if __name__ == "__main__":
     app.run()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
