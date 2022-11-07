@@ -1,7 +1,9 @@
-from numpy import argmax
 from tensorflow.keras.utils import load_img
 from tensorflow.keras.utils import img_to_array
 from keras.models import load_model
+
+def argmax(a):
+    return list( a ).index(max(a))
 
 def load_image(filename):
     test_img = load_img(filename, grayscale=True, target_size=(28, 28))
