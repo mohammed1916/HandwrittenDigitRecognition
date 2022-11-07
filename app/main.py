@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request
 
-import make_prediction
+# import make_prediction
 
 app = Flask(__name__)
 
@@ -22,5 +22,5 @@ def main():
 #     return render_template('index.html', prediction=pred)
 
 
-# if __name__ == "__main__":
-#     app.run()
+if __name__ == "__main__":
+    app.run()
