@@ -2,12 +2,22 @@
 
 ## Running the application in Google Colab
 
-The Application Folder for rendering html files can be found in https://drive.google.com/drive/folders/1bwZtTQDIUydunA7au-LjfRFxDyT4cpCZ?usp=sharing, which is public and can be donloaded for running the application in google colab.
+1. Upload this folder in `My Drive` folder of google drive
 
->Open the `.ipynb` file and run the application using `command/ctrl+F9`
+>The Application Folder for rendering html files can be found in https://drive.google.com/drive/folders/1bwZtTQDIUydunA7au-LjfRFxDyT4cpCZ?usp=sharing, >which is public and can be downloaded for running the application in google colab.
+
+2. Open the `.ipynb` file and run the application using `command/ctrl+F9`
 >A confirmation dialog will be diplayed for mounting the google drive
+
+## DEMO
+
+### Youtube Link
+[![Youtube](http://img.youtube.com/vi/iLVx7PRH0TQ/0.jpg)](https://youtu.be/iLVx7PRH0TQ)
+
+![app](https://user-images.githubusercontent.com/63586305/201483978-2302bec8-9592-4b7f-968d-42f3fefdf1b9.gif)
 
 ## CREDITS
 
 >Mohammed Abdullah - Lokesh.P - Keerthivashan.A.K.R - Madhanmanoharan.M
-Team ID: PNT2022TMID00805
+
+Team ID: *PNT2022TMID00805*
