@@ -1,4 +1,0 @@
-flask==0.1.0
-numpy==1.19.3
-tensorflow==2.8.0
-gunicorn==20.1.0
