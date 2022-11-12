@@ -4,7 +4,7 @@
 
 1. Upload this folder in `My Drive` folder of google drive
 
->The Application Folder for rendering html files can be found in https://drive.google.com/drive/folders/1bwZtTQDIUydunA7au-LjfRFxDyT4cpCZ?usp=sharing, which is public and can be downloaded for running the application in google colab.
+>Alternatively, the Application Folder for rendering html files can be found in https://drive.google.com/drive/folders/1bwZtTQDIUydunA7au-LjfRFxDyT4cpCZ?usp=sharing, which is public and can be downloaded for running the application in google colab.
 
 2. Open the `.ipynb` file and run the application using `command/ctrl+F9`
 >A confirmation dialog will be diplayed for mounting the google drive
