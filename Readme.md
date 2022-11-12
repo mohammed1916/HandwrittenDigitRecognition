@@ -9,6 +9,12 @@
 2. Open the `.ipynb` file and run the application using `command/ctrl+F9`
 >A confirmation dialog will be diplayed for mounting the google drive
 
+## TESTING
+Images under `./Test images` can be used for testing
+
+## MODEL
+Model can be found at Application/model/model.h5
+
 ## DEMO
 
 ### Youtube Link
