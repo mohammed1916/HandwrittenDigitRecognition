@@ -1,29 +1,40 @@
 {% extends "base.html" %}
 {% block content %}
 
-<div class="main-container">
-  <h1 class="title">Handwritten digit Recognition</h1>
-  <div>
-    <div class="box">
-      <form class="p-3 text-center" action="/" method="POST" enctype="multipart/form-data">
-        <b>
-          <input class="form-control" type="file" name="imagefile"> <br><br>
-          <input class="btn btn-primary mt-3" type="submit" value="Predict Image">
-      </form>
-      <p>Upload the Image to get digital output</p>
-    </div>
-    <div class="box">
-      <h4>The results will be shown here</h4>
-      <p>{{pred}}</p>
-    </div>
-    <div class="box">
-      <h4>Authors:
-        Mohammed Abdullah - Lokesh.P - Keerticashan.A.K.R - Madhanmanoharan.M
-      </h4>
-      <h4>Team ID:
-        PNT2022TMID00805
-      </h4>
-      <p>{{pred}}</p>
+<div class="p-5 text-center">
+  <h1 class="title">A Novel Method for Handwritten digit Recognition System</h1>
+  <div class="box text-center">
+    <div class="p-5 box text-center">
+      <div class="p-5 box text-center">
+        <div class="p-5 box text-center">
+          <div class="box text-center">
+            <form class="p-3 text-center" action="/" method="POST" enctype="multipart/form-data">
+              <b>
+                <input class="form-control" type="file" name="imagefile"> <br><br>
+                <input class="btn btn-primary mt-3" type="submit" value="Predict Image">
+              </b>
+            </form>
+            <p>Upload the Image to get digital output</p>
+          </div>
+          <div class="box text-center">
+            <h4>The results will be displayed here</h4>
+            <b>
+              <p>{{pred}}</p>
+            </b>
+          </div>
+          <div class="box text-center">
+            <p>CREDITS:</p>
+            <h4>
+              <b>Mohammed Abdullah - Lokesh.P - Keerthivashan.A.K.R - Madhanmanoharan.M</b>
+            </h4>
+            _______________________________________
+            <p>TEAM ID:</p>
+            <h4>
+              PNT2022TMID00805
+            </h4>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
