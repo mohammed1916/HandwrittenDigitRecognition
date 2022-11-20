@@ -20,7 +20,7 @@ Model can be found at Application/model/model.h5
 ### Youtube Link
 
 
-#### How it woks
+#### Presentation
 >[![Youtube](http://img.youtube.com/vi/gC5nvPL2_bM/0.jpg)](https://youtu.be/gC5nvPL2_bM)
 
 #### Test Output 
