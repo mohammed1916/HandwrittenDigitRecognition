@@ -21,6 +21,9 @@ Model can be found at Application/model/model.h5
 >[![Youtube](http://img.youtube.com/vi/iLVx7PRH0TQ/0.jpg)](https://youtu.be/iLVx7PRH0TQ)
 
 ### How it woks
+>[![Youtube](http://img.youtube.com/vi/gC5nvPL2_bM/0.jpg)](https://youtu.be/gC5nvPL2_bM)
+
+### Test Output 
 ![app](https://user-images.githubusercontent.com/63586305/201483978-2302bec8-9592-4b7f-968d-42f3fefdf1b9.gif)
 
 ## CREDITS
